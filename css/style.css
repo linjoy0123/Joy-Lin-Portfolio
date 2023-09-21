@@ -448,7 +448,12 @@ b i:last-child {
     color: #999;
     line-height: 1.7
 }
-
+.box-intro h3 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #01151e;
+    line-height: 1.7
+}
 
 /* mouse effect */
 
