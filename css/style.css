@@ -896,8 +896,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Joy.JPG);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/background.avif);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -953,6 +953,17 @@ footer img {
 
 .about-color{
     color:#333;
+}
+.video-container {
+    width: 600px; /* Set the width you desire */
+    height: 440 px; /* Set the height you desire */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.video-container video {
+    width: 75%; /* Make the video fill the container width */
+    height: 75%; /* Make the video fill the container height */
+    object-fit: cover; /* Maintain aspect ratio, cropping if needed */
 }
 
 
