@@ -68,7 +68,7 @@ a {
 }
 
 .h-30 {
-    height: 30px
+    height: 30px;
 }
 
 .h-10 {
@@ -949,6 +949,10 @@ footer img {
 
 .social-ul li a:hover {
     color: #888;
+}
+
+.about-color{
+    color:#333;
 }
 
 
